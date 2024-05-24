@@ -1,0 +1,70 @@
+﻿{
+	"data": {
+		"gor":4,
+		"vert":6,
+		"width":150,
+		"height":150,
+		"backTile":"back_tiles",
+		"blockTile":"tileRed",
+		"sector_name":"sector",
+		"tex_mask_pref":"_mask",
+		"pipe_coner":{
+			"w":112,
+			"h":112
+		},
+		"pipe_line":{
+			"w":150,
+			"h":150
+		},
+		"pipe_triple":{
+			"w":112,
+			"h":150
+		},
+		"pipe_krest":{
+			"w":150,
+			"h":150
+		},
+		"pipe_start":{
+			"w":150,
+			"h":150
+		},
+		"pipe_end":{
+			"w":150,
+			"h":150
+		},
+		"start":"sector_0_3",
+		"end":"sector_5_2",
+		"timer":25
+	},
+	"sectors":{
+		"sector_0_0":{"mode":"clear", "tex":"", "rotate":0,"type":"opacity"},
+		"sector_0_1":{"mode":"clear", "tex":"", "rotate":0, "type":"opacity"},
+		"sector_0_2":{"mode":"clear", "tex":"", "rotate":0, "type":"opacity"},
+		"sector_0_3":{"mode":"pipe", "tex":"pipe_start", "rotate":0, "type":"opacity"},
+		
+		"sector_1_0":{"mode":"pipe", "tex":"pipe_krest", "rotate":0.0, "type":"active"},
+		"sector_1_1":{"mode":"pipe", "tex":"pipe_coner", "rotate":1.5,"type":"active"},
+		"sector_1_2":{"mode":"pipe", "tex":"pipe_line", "rotate":0.5, "type":"active"},
+		"sector_1_3":{"mode":"pipe", "tex":"pipe_coner", "rotate":1.0, "type":"active"},
+		
+		"sector_2_0":{"mode":"pipe", "tex":"pipe_coner", "rotate":1.5,"type":"active"},
+		"sector_2_1":{"mode":"pipe", "tex":"pipe_triple", "rotate":0.0, "type":"active"},
+		"sector_2_2":{"mode":"pipe", "tex":"pipe_coner", "rotate": 0.0,	"type":"active"},
+		"sector_2_3":{"mode":"pipe", "tex":"pipe_line",	"rotate":0.0,"type":"active"},	
+
+		"sector_3_0":{"mode":"pipe", "tex":"pipe_line", "rotate":0.0,"type":"active"},
+		"sector_3_1":{"mode":"pipe", "tex":"pipe_line", "rotate":0.0,"type":"active"},
+		"sector_3_2":{"mode":"pipe", "tex":"pipe_krest", "rotate": 0.0,	"type":"active"},
+		"sector_3_3":{"mode":"pipe", "tex":"pipe_triple",	"rotate":0.0,"type":"active"},	
+
+		"sector_4_0":{"mode":"pipe", "tex":"pipe_coner", "rotate":1.0,"type":"active"},
+		"sector_4_1":{"mode":"pipe", "tex":"pipe_coner", "rotate":0.5,"type":"active"},
+		"sector_4_2":{"mode":"pipe", "tex":"pipe_coner", "rotate": 1.0,	"type":"active"},
+		"sector_4_3":{"mode":"pipe", "tex":"pipe_line",	"rotate":0.5,"type":"active"},
+		
+		"sector_5_0":{"mode":"clear", "tex":"",	"rotate":0,	"type":"opacity"},
+		"sector_5_1":{"mode":"pipe", "tex":"pipe_end", "rotate": 0.0, "type":"opacity"},
+		"sector_5_2":{"mode":"clear", "tex":"",	"rotate":0,	"type":"opacity"},
+		"sector_5_3":{"mode":"clear", "tex":"",	"rotate":0,	"type":"opacity"}	
+	}	
+}

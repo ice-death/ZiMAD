@@ -1,0 +1,147 @@
+﻿{
+	"data": {
+		"gor":5,
+		"vert":3,
+		"width":98,
+		"height":98,
+		"sector_name":"sector",
+		"tex_full_pref":"_full",
+		"lvl_active_tex":"vint",
+		"lvl_lock_tex":"manometr",
+		"map_coner":{
+			"w":"73",
+			"h":"73"
+		},
+		"map_line":{
+			"w":"98",
+			"h":"98"
+		},
+		"map_triple":{
+			"w":"98",
+			"h":"98"
+		},
+		"start":"sector_2_0"
+	},
+	"sectors":{
+		"sector_0_0":{
+			"mode":"pipe",
+			"tex":"map_coner",
+			"rotate": 1,
+			"type":"empty",
+			"parent":"sector_1_1"
+		},
+		"sector_0_1":{
+			"mode":"pipe",
+			"tex":"map_line",
+			"rotate": 0,
+			"type":"empty",
+			"parent":"sector_1_1"
+		},
+		"sector_0_2":{
+			"mode":"pipe",
+			"tex":"map_line",
+			"rotate": 0,
+			"type":"lvl",
+			"level":5,
+			"status":false,
+			"stars":0,
+			"parent":"sector_1_1"
+		},
+		"sector_0_3":{
+			"mode":"clear",
+			"tex":"",
+			"rotate": 0,
+			"type":"empty",
+			"parent":false
+		},
+		"sector_0_4":{
+			"mode":"pipe",
+			"tex":"map_line",
+			"rotate": 0.5,
+			"type":"lvl",
+			"level":4,
+			"status":false,
+			"stars":0,
+			"parent":"sector_2_2"
+		},
+		"sector_1_0":{
+			"mode":"pipe",
+			"tex":"map_coner",
+			"rotate": 0.5,
+			"type":"empty",
+			"parent":"sector_1_1"
+		},
+		"sector_1_1":{
+			"mode":"pipe",
+			"tex":"map_line",
+			"rotate": 0,
+			"type":"lvl",
+			"level":3,
+			"status":false,
+			"stars":0,
+			"parent":"sector_2_2"
+		},
+		"sector_1_2":{
+			"mode":"pipe",
+			"tex":"map_coner",
+			"rotate": 1.5,
+			"type":"empty",
+			"parent":"sector_2_2"
+		},
+		"sector_1_3":{
+			"mode":"pipe",
+			"tex":"map_coner",
+			"rotate": 1,
+			"type":"empty",
+			"parent":"sector_2_2"
+		},
+		"sector_1_4":{
+			"mode":"pipe",
+			"tex":"map_coner",
+			"rotate": 0,
+			"type":"empty",
+			"parent":"sector_2_2"
+		},
+		"sector_2_0":{
+			"mode":"pipe",
+			"tex":"map_line",
+			"rotate": 0,
+			"type":"lvl",
+			"level":1,
+			"status":false,
+			"stars":0,
+			"parent":false
+		},
+		"sector_2_1":{
+			"mode":"pipe",
+			"tex":"map_line",
+			"rotate": 0,
+			"type":"empty",
+			"parent":"sector_2_0"
+		},
+		"sector_2_2":{
+			"mode":"pipe",
+			"tex":"map_triple",
+			"rotate": 0,
+			"type":"lvl",
+			"level":2,
+			"status":false,
+			"stars":0,
+			"parent":"sector_2_0"
+		},
+		"sector_2_3":{
+			"mode":"pipe",
+			"tex":"map_coner",
+			"rotate": 0,
+			"type":"empty",
+			"parent":"sector_2_2"
+		},
+		"sector_2_4":{
+			"mode":"clear",
+			"tex":"",
+			"rotate": 0,
+			"type":"empty",
+			"parent":false
+		}
+	}	
+}
